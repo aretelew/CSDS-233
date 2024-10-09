@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.xml
+
+# Compiled code
+*.class
+
+# Build output
+/out/
+target/
+
+# OS files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Dependency directories
+node_modules/
