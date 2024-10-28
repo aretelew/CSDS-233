@@ -1,6 +1,6 @@
 package assignment1;
 
-public class TestClassA1 {
+public class TestClass {
     public static void main(String[] args) {
         System.out.println("BANK ACCOUNT TEST");
         BankAccount bankAccount = new BankAccount(1000);

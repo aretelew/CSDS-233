@@ -1,6 +1,6 @@
 package assignment2;
 
-public class TestClassA2 {
+public class TestClass {
     public static void main(String[] args) {
         System.out.println("TESTING assignment2.NumLinkedList");
         NumLinkedList list = new NumLinkedList();
@@ -37,7 +37,7 @@ public class TestClassA2 {
         System.out.println("\n=====================================\n");
 
         System.out.println("TESTING assignment2.QueuedStack");
-        QueuedStack<Integer> stack = new QueuedStack<Integer>();
+        QueuedStack<Integer> stack = new QueuedStack<>();
         System.out.println("PUSHING 1, 2, 3, 4, 5");
         stack.push(1);
         stack.push(2);
@@ -53,7 +53,7 @@ public class TestClassA2 {
         System.out.println("\n=====================================\n");
 
         System.out.println("TESTING assignment2.StackifiedQueue");
-        StackifiedQueue<Integer> queue = new StackifiedQueue<Integer>();
+        StackifiedQueue<Integer> queue = new StackifiedQueue<>();
         System.out.println("ADDING 1, 2, 3, 4, 5");
         queue.add(1);
         queue.add(2);
